@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket - City Bus Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Bus Schedule</a></li>
+                <li><a href="booking.html">Book Ticket</a></li>
+                <li><a href="tracking.html">Track Bus</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Book Ticket</h2>
+            <form action="booking_confirmation.html" method="post">
+                <label for="route">Select Route:</label>
+                <select id="route" name="route">
+                    <option value="downtown-suburb">Downtown - Suburb</option>
+                    <!-- More route options can be added here -->
+                </select>
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date">
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 City Bus Management System</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Bus - City Bus Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Bus Schedule</a></li>
+                <li><a href="booking.html">Book Ticket</a></li>
+                <li><a href="tracking.html">Track Bus</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Track Bus</h2>
+            <p>Enter bus number to track its current location:</p>
+            <form action="bus_tracking_result.html" method="get">
+                <label for="bus-number">Bus Number:</label>
+                <input type="text" id="bus-number" name="bus-number">
+                <button type="submit">Track</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 City Bus Management System</p>
+    </footer>
+</body>
+</html>
